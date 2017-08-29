@@ -71,31 +71,45 @@ header {
     margin-top: 60px;
     margin-left: 60px;
     margin-right: 50px;
+    position: fixed;
 }
 .levi p {
     margin-left: 160px;
     margin-top: 1px;
     color: white;
-    font-size: 9pt;
+    font-size: 11pt;
 }
 .button-kupi {
     background: antiquewhite;
-    margin-left: 220px;
-    margin-top: -27px;
+    margin-left: 223px;
+    margin-top: -31px;
     font-size: 9pt;
     width: 32px;
     box-shadow: 2px 4px 6px 0px rgba(255,255,255,.6);
     transition: 1s all linear;
     cursor: pointer;
     line-height: 15px;
+
 }
 .button-kupi:hover{
     box-shadow: 0 0 0 0;
 }
 footer {
    width: 100%;
-    height: 260px;
+    height: 200px;
     background: #555555;
     color: beige;
     position: relative;
+    padding-top: 25px;
+}
+footer ul {
+    margin-top: 9px;
+}
+footer b {
+    margin-left: 23px;
+}
+.social img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
 }
